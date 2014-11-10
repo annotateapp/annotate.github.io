@@ -26,24 +26,24 @@ body { font-family: OpenSans; background-color: #ffffff; color: #2e154f; }
 /* Presentacion
 ========================================================================== */
 
-.presentacion { width: 100%; height: 550px; display: table; } 
-.presentacion { vertical-align: middle; background-color: #62329f; } 
+.pre { width: 100%; height: 600px; display: table; } 
+.pre { vertical-align: middle; background-color: #62329f; } 
 
-.presentacion-h1 { color: #ffffff; font-size: 80px; } 
-.presentacion-h2 { color: #ffffff; font-size: 30px; } 
+.pre-h1 { color: #ffffff; font-size: 60px; text-decoration: none; } 
+.pre-h2 { color: #ffffff; font-size: 24px; text-decoration: none; } 
 
-.presentacion-logo { display: block; width: 180px; height: 180px; } 
-.presentacion-logo { background-size: 180px 180px; } 
-.presentacion-logo { background-image: url('../img/logo_white.png'); } 
-.presentacion-logo { background-repeat: no-repeat; } 
+.pre-logo { display: block; width: 100px; height: 100px; } 
+.pre-logo { background-size: 100px 100px; } 
+.pre-logo { background-image: url('../img/logo_white.png'); } 
+.pre-logo { background-repeat: no-repeat; } 
 
-.presentacion-btn { display: block; width: 350px; height: 70px; } 
-.presentacion-btn { border: 1px; border-color: #ffffff; border-style: solid; } 
-.presentacion-btn { font-size: 27px; line-height: 64px; text-align: center; } 
-.presentacion-btn { text-decoration: none; } 
-.presentacion-btn { color: #ffffff; background-color: transparent; } 
+.pre-btn { display: block; width: 250px; height: 50px; } 
+.pre-btn { border: 1px; border-color: #ffffff; border-style: solid; } 
+.pre-btn { font-size: 20px; line-height: 47px; text-align: center; } 
+.pre-btn { text-decoration: none; } 
+.pre-btn { color: #ffffff; background-color: transparent; } 
 
-.presentacion-btn:hover { color: #62329f; background-color: #ffffff; } 
+.pre-btn:hover { color: #62329f; background-color: #ffffff; } 
 
 
 
