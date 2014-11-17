@@ -1,5 +1,5 @@
 //Iniciamos la aplicacion
-setTimeout( function(){ Annotate.Ini();}, 4000);
+setTimeout( function(){ Annotate.Ini();}, 2000);
 
 //Main class
 var Annotate = new function()
