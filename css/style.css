@@ -26,12 +26,17 @@ body { font-family: OpenSans; background-color: #ffffff; color: #2e154f; }
 /* Presentacion
 ========================================================================== */
 
-.pre { width: 100%; height: 600px; display: table; } 
-.pre { vertical-align: middle; background-color: #62329f; } 
+/* Dimension de la presentacion */
+.pre { width: 100%; height: 100%; display: table; } 
 
 /* Fondo */
+.pre { background-color: #62329f; } 
 .pre { background: url("../img/bg.jpg") no-repeat; background-size: cover; } 
 
+/* Celda */
+.pre-cell { display: table-cell; vertical-align: middle; }
+
+/* Headers */
 .pre-h1 { color: #ffffff; font-size: 60px; text-decoration: none; } 
 .pre-h2 { color: #ffffff; font-size: 24px; text-decoration: none; } 
 
@@ -49,13 +54,20 @@ body { font-family: OpenSans; background-color: #ffffff; color: #2e154f; }
 .pre-btn:hover { color: #62329f; background-color: #ffffff; } 
 
 
-
 /* Pie
 ========================================================================== */
 
-.pie { display: block; width: 950px; margin-left: auto; margin-right: auto; } 
-.pie { border-top: 1px; border-top-color: #2e154f; border-top-style: solid; } 
-.pie { font-size: 17px; opacity: 0.5; } 
+/* Dimension */
+.pie { display: block; width: 100%; } 
+
+/* Fondo */
+.pie { background-color: #fafafa; } 
+
+/* Texto del pie */
+.pie { font-size: 16px; color: #96a4a5; }  
+
+/* Texto */
+.pie-text { color: #96a4a5; text-decoration: none; font-weight: bold; } 
 
    
 
