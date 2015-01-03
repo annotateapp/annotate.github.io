@@ -365,7 +365,7 @@ var Annotate = new function()
 		//Nombre de la aplicacion
 		cont = cont + '** \n';
 		cont = cont + '** Annotate! for TilingScan. \n';
-		cont = cont + '** https://tilingscan.github.io/annotate \n';
+		cont = cont + '** http://annptateapp.github.io/ \n';
 		cont = cont + '** \n';
 		cont = cont + '\n';
 		
